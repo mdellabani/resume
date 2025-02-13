@@ -99,24 +99,20 @@
 % 
 % \setmathfont{XITS Math}
 
-\newfontfamily\bodyfont
-[BoldFont=texgyreheros-bold.otf,
-ItalicFont=texgyreheros-italic.otf,
-BoldItalicFont=texgyreheros-bolditalic.otf]
-{texgyreheros-regular.otf}
-\newfontfamily\thinfont[]{Lato-Hairline.ttf}
-\newfontfamily\headingfont[]{texgyreheros-bold.otf}
+\newfontfamily\bodyfont{VT323}
+\newfontfamily\thinfont{VT323}
+\newfontfamily\headingfont{VT323}
 
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont
 [Mapping=tex-text, Color=textcolor,
-BoldFont=texgyreheros-bold.otf,
-ItalicFont=texgyreheros-italic.otf,
-BoldItalicFont=texgyreheros-bolditalic.otf
+BoldFont=VT323,
+ItalicFont=VT323,
+BoldItalicFont=VT323
 ]
-{texgyreheros-regular.otf}
+{VT323}
 
-\setmathfont{texgyreheros-regular.otf}
+\setmathfont{VT323}
 %%%
 \let\oldding\ding% Store old \ding in \oldding
 \newcommand{\barrow}{\item[\color{pblue}\footnotesize{\ding{228}}]}
